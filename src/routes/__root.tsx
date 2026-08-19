@@ -132,8 +132,23 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <SidebarProvider>
+        <AppSidebar />
+        <SidebarInset>
+          <header className="sticky top-0 z-10 flex items-center gap-3 border-b border-border bg-background/80 px-4 py-3 backdrop-blur">
+            <SidebarTrigger />
+            <p className="text-sm font-bold text-primary sm:text-base">
+              We fight for your rights your voice is heard
+            </p>
+          </header>
+          <main className="flex-1 p-4 sm:p-6 lg:p-8">
+            {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+            <Outlet />
+          </main>
+        </SidebarInset>
+      </SidebarProvider>
+      <Toaster richColors position="top-center" />
     </QueryClientProvider>
   );
 }
+
