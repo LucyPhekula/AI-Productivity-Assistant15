@@ -58,10 +58,10 @@ function EmailPage() {
         },
       ]}
       buildPrompt={(v) => `Write a workplace email.
-Recipient: ${v.recipient}
-Purpose: ${v.purpose}
-Key facts: ${v.details || "(none provided)"}
-Desired tone and outcome: ${v.tone || "professional and constructive"}`}
+Recipient: ${v["recipient"]}
+Purpose: ${v["purpose"]}
+Key facts: ${v["details"] || "(none provided)"}
+Desired tone and outcome: ${v["tone"] || "professional and constructive"}`}
     />
   );
 }

@@ -51,9 +51,9 @@ function ResearchPage() {
         },
       ]}
       buildPrompt={(v) => `Research briefing request.
-Topic: ${v.topic}
-Jurisdiction: ${v.jurisdiction || "unspecified — cover general principles"}
-Situation: ${v.situation || "(none provided)"}`}
+Topic: ${v["topic"]}
+Jurisdiction: ${v["jurisdiction"] || "unspecified — cover general principles"}
+Situation: ${v["situation"] || "(none provided)"}`}
     />
   );
 }

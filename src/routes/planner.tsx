@@ -51,9 +51,9 @@ function PlannerPage() {
         },
       ]}
       buildPrompt={(v) => `Create an action plan.
-Goal/issue: ${v.goal}
-Context: ${v.context || "(none provided)"}
-Timeframe: ${v.deadline || "flexible"}`}
+Goal/issue: ${v["goal"]}
+Context: ${v["context"] || "(none provided)"}
+Timeframe: ${v["deadline"] || "flexible"}`}
     />
   );
 }
