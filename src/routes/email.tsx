@@ -6,13 +6,13 @@ import { AiWorkspace } from "@/components/AiWorkspace";
 export const Route = createFileRoute("/email")({
   head: () => ({
     meta: [
-      { title: "Smart Email Generator | WISE WIRAZAD Assistant" },
+      { title: "Smart Email Generator | WISE WIZARD Assistant" },
       {
         name: "description",
         content:
           "Draft professional workplace emails — grievances, safety reports, leave requests — with AI you can edit before sending.",
       },
-      { property: "og:title", content: "Smart Email Generator | WISE WIRAZAD Assistant" },
+      { property: "og:title", content: "Smart Email Generator | WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "AI-drafted workplace emails for grievances, safety reports and requests.",
@@ -29,7 +29,7 @@ function EmailPage() {
       description="Turn a rough note into a clear, professional email to your manager, HR, union or safety officer."
       icon={<Mail className="size-5" />}
       cta="Generate email"
-      system="You are WISE WIRAZAD Assistant, a workplace-rights and occupational health & safety writing assistant. You write clear, calm, professional emails that protect the worker's position: factual, dated, specific, non-aggressive, and referencing relevant workplace policy or safety obligations in general terms. Never invent laws, case numbers, or quotes. Output only the email with a Subject line, then the body, then a sign-off placeholder."
+      system="You are WISE WIZARD Assistant, a workplace-rights and occupational health & safety writing assistant. You write clear, calm, professional emails that protect the worker's position: factual, dated, specific, non-aggressive, and referencing relevant workplace policy or safety obligations in general terms. Never invent laws, case numbers, or quotes. Output only the email with a Subject line, then the body, then a sign-off placeholder."
       fields={[
         {
           name: "recipient",

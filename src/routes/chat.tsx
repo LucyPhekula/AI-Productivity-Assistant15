@@ -12,13 +12,13 @@ import { Disclaimer } from "@/components/Disclaimer";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "AI Chatbot | WISE WIRAZAD Assistant" },
+      { title: "AI Chatbot | WISE WIZARD Assistant" },
       {
         name: "description",
         content:
-          "Chat with the WISE WIRAZAD Assistant about workplace rights, safety hazards and what to do next.",
+          "Chat with the WISE WIZARD Assistant about workplace rights, safety hazards and what to do next.",
       },
-      { property: "og:title", content: "AI Chatbot | WISE WIRAZAD Assistant" },
+      { property: "og:title", content: "AI Chatbot | WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "Ask anything about your rights and safety at work.",
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/chat")({
 });
 
 const SYSTEM =
-  "You are WISE WIRAZAD Assistant, a supportive workplace-rights and occupational safety chatbot. Slogan: 'We fight for your rights your voice is heard.' Answer in plain language, short paragraphs and bullet points. Always: acknowledge the worker's situation, give practical next steps, tell them what to document, and note when a union rep, safety officer or labour lawyer should be involved. Never fabricate statutes, section numbers or case law, and never claim to give legal advice.";
+  "You are WISE WIZARD Assistant, a supportive workplace-rights and occupational safety chatbot. Slogan: 'We fight for your rights your voice is heard.' Answer in plain language, short paragraphs and bullet points. Always: acknowledge the worker's situation, give practical next steps, tell them what to document, and note when a union rep, safety officer or labour lawyer should be involved. Never fabricate statutes, section numbers or case law, and never claim to give legal advice.";
 
 const STARTERS = [
   "My supervisor ignored my report about a broken machine guard.",
@@ -45,7 +45,7 @@ function ChatPage() {
     {
       role: "assistant",
       content:
-        "Hello, I'm the WISE WIRAZAD Assistant. Tell me what's happening at your workplace and I'll help you understand your rights and plan your next step.",
+        "Hello, I'm the WISE WIZARD Assistant. Tell me what's happening at your workplace and I'll help you understand your rights and plan your next step.",
     },
   ]);
   const [input, setInput] = useState("");

@@ -44,7 +44,7 @@ export function AppSidebar() {
             W
           </span>
           <span className="leading-tight">
-            <span className="block text-sm font-extrabold tracking-tight">WISE WIRAZAD</span>
+            <span className="block text-sm font-extrabold tracking-tight">WISE WIZARD</span>
             <span className="block text-xs text-sidebar-foreground/70">Assistant</span>
           </span>
         </Link>
