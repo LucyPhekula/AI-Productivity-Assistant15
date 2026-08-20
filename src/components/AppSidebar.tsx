@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import {
   LayoutDashboard,
   Mail,
+  Phone,
   ListChecks,
   Search,
   MessageSquare,
