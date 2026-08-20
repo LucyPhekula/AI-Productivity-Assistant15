@@ -7,13 +7,13 @@ import { Disclaimer } from "@/components/Disclaimer";
 export const Route = createFileRoute("/hazards")({
   head: () => ({
     meta: [
-      { title: "Workplace Safety Hazards | WISE WIRAZAD Assistant" },
+      { title: "Workplace Safety Hazards | WISE WIZARD Assistant" },
       {
         name: "description",
         content:
           "A quick-reference guide to common workplace safety hazards, warning signs and the actions to take when you spot one.",
       },
-      { property: "og:title", content: "Workplace Safety Hazards | WISE WIRAZAD Assistant" },
+      { property: "og:title", content: "Workplace Safety Hazards | WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "Spot, report and escalate common workplace safety hazards.",

@@ -85,14 +85,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "WISE WIRAZAD Assistant" },
+      { title: "WISE WIZARD Assistant" },
       {
         name: "description",
         content:
           "AI assistant for workplace rights and safety. We fight for your rights your voice is heard.",
       },
-      { name: "author", content: "WISE WIRAZAD" },
-      { property: "og:title", content: "WISE WIRAZAD Assistant" },
+      { name: "author", content: "WISE WIZARD" },
+      { property: "og:title", content: "WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "AI assistant for workplace rights, safety hazards and workplace admin.",

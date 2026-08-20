@@ -6,13 +6,13 @@ import { AiWorkspace } from "@/components/AiWorkspace";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant | WISE WIRAZAD Assistant" },
+      { title: "AI Research Assistant | WISE WIZARD Assistant" },
       {
         name: "description",
         content:
           "Get plain-language briefings on workplace rights, safety standards and employer obligations, with next steps.",
       },
-      { property: "og:title", content: "AI Research Assistant | WISE WIRAZAD Assistant" },
+      { property: "og:title", content: "AI Research Assistant | WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "Plain-language briefings on workplace rights and safety obligations.",
@@ -29,7 +29,7 @@ function ResearchPage() {
       description="Ask a workplace-rights or safety question and get a structured briefing you can share with colleagues."
       icon={<Search className="size-5" />}
       cta="Research topic"
-      system="You are WISE WIRAZAD Assistant, a workplace-rights research assistant. Produce a structured briefing: Summary, Key Points, What Your Employer Must Generally Do, What You Can Do Next, Questions to Ask a Specialist, and Limitations. Write in plain language. Be explicit that rules vary by country/state and by employment contract. NEVER fabricate statutes, section numbers, case law, or figures — if unsure, say the reader must verify with the local labour authority."
+      system="You are WISE WIZARD Assistant, a workplace-rights research assistant. Produce a structured briefing: Summary, Key Points, What Your Employer Must Generally Do, What You Can Do Next, Questions to Ask a Specialist, and Limitations. Write in plain language. Be explicit that rules vary by country/state and by employment contract. NEVER fabricate statutes, section numbers, case law, or figures — if unsure, say the reader must verify with the local labour authority."
       fields={[
         {
           name: "topic",

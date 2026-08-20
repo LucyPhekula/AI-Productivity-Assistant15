@@ -13,13 +13,13 @@ import { Disclaimer } from "@/components/Disclaimer";
 export const Route = createFileRoute("/rights")({
   head: () => ({
     meta: [
-      { title: "Know Your Rights | WISE WIRAZAD Assistant" },
+      { title: "Know Your Rights | WISE WIZARD Assistant" },
       {
         name: "description",
         content:
           "Plain-language answers on unsafe work, unfair treatment, pay, leave and retaliation at work.",
       },
-      { property: "og:title", content: "Know Your Rights | WISE WIRAZAD Assistant" },
+      { property: "og:title", content: "Know Your Rights | WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "Plain-language workplace rights guidance you can act on.",

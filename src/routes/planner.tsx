@@ -6,13 +6,13 @@ import { AiWorkspace } from "@/components/AiWorkspace";
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner | WISE WIRAZAD Assistant" },
+      { title: "AI Task Planner | WISE WIZARD Assistant" },
       {
         name: "description",
         content:
           "Break workplace goals, safety actions and grievance processes into a prioritised, dated action plan.",
       },
-      { property: "og:title", content: "AI Task Planner | WISE WIRAZAD Assistant" },
+      { property: "og:title", content: "AI Task Planner | WISE WIZARD Assistant" },
       {
         property: "og:description",
         content: "Prioritised action plans for workplace safety and rights cases.",
@@ -29,7 +29,7 @@ function PlannerPage() {
       description="Turn a goal or a workplace issue into a prioritised plan with owners, deadlines and evidence to collect."
       icon={<ListChecks className="size-5" />}
       cta="Build plan"
-      system="You are WISE WIRAZAD Assistant, a workplace task-planning assistant focused on worker rights and occupational safety. Produce a structured markdown-style plan: Objective, Priority Actions (numbered, each with owner, suggested due date offset, and expected outcome), Evidence to Collect, Escalation Path, and Risks. Be concrete and practical. Never invent legal citations."
+      system="You are WISE WIZARD Assistant, a workplace task-planning assistant focused on worker rights and occupational safety. Produce a structured markdown-style plan: Objective, Priority Actions (numbered, each with owner, suggested due date offset, and expected outcome), Evidence to Collect, Escalation Path, and Risks. Be concrete and practical. Never invent legal citations."
       fields={[
         {
           name: "goal",

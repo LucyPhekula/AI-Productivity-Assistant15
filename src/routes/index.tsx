@@ -8,13 +8,13 @@ import { Disclaimer } from "@/components/Disclaimer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WISE WIRAZAD Assistant — Workplace Rights & Safety AI" },
+      { title: "WISE WIZARD Assistant — Workplace Rights & Safety AI" },
       {
         name: "description",
         content:
           "AI assistant for workplace rights and safety: draft emails, plan actions, research your rights and chat for guidance. We fight for your rights your voice is heard.",
       },
-      { property: "og:title", content: "WISE WIRAZAD Assistant — Workplace Rights & Safety AI" },
+      { property: "og:title", content: "WISE WIZARD Assistant — Workplace Rights & Safety AI" },
       {
         property: "og:description",
         content:
@@ -69,7 +69,7 @@ function Dashboard() {
     <div className="space-y-8">
       <section className="overflow-hidden rounded-2xl border border-border bg-card p-6 sm:p-10">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-          WISE WIRAZAD Assistant
+          WISE WIZARD Assistant
         </p>
         <h1 className="mt-3 max-w-3xl text-3xl font-bold tracking-tight text-foreground sm:text-5xl">
           Your rights at work, backed by AI
